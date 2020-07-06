@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* slider */
 .container {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .custom-bg {
@@ -22,4 +27,57 @@
     color: #fff;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* categories */
+
+.cat-1,
+.cat-2,
+.cat-3 {
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+
+.cat-1 {
+    background: linear-gradient(to left, #e08e30 20%, #976309 80%);
+}
+
+.cat-2 {
+    background: linear-gradient(to left, #c03fa0 20%, #880576 80%);
+}
+
+.cat-3 {
+    background: linear-gradient(to left, #484ab1 20%, #060486 80%);
+}
+
+.categories h1 {
+    color: #fff;
+}
+
+.categories img {
+    width: 100px;
+}
+
+/* card css */
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 8px;
+}
+
+.card-footer {
+    background: white;
+    border-top: none;
+}
+
+#contact {
+    height: 300px;
+}
+
+#contact h6 {
+    color: gray;
+}
+
+#contact input {
+    margin-bottom: 5px;
 }
